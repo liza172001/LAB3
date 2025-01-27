@@ -46,15 +46,18 @@ def shop():
         print(f"\nYou saved ${discount:.2f} with a 10% discount!")
         print(f"Discounted Total: ${total_cost:.2f}")
 
+shop()
 while True:
-    shop()
+
 
     restart = input("\nWould you like to shop again? (yes/no): ").lower()
     if restart == "yes":
         shop()
 
     else:
-     print("Thank you for shopping with us!")
+        print("Thank you for shopping with us!")
+        break
+
 
 
 
