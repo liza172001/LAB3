@@ -47,6 +47,8 @@ def shop():
         print(f"Discounted Total: ${total_cost:.2f}")
 
 while True:
+    shop()
+
     restart = input("\nWould you like to shop again? (yes/no): ").lower()
     if restart == "yes":
         shop()
